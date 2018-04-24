@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD05B6E207398A800FB7505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD05B6D207398A800FB7505 /* AppDelegate.swift */; };
+		9AD05B70207398A800FB7505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD05B6F207398A800FB7505 /* ViewController.swift */; };
+		9AD05B73207398A800FB7505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD05B71207398A800FB7505 /* Main.storyboard */; };
+		9AD05B75207398A800FB7505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD05B74207398A800FB7505 /* Assets.xcassets */; };
+		9AD05B78207398A800FB7505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD05B76207398A800FB7505 /* LaunchScreen.storyboard */; };
+		9AD05B822073A72F00FB7505 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AD05B812073A72F00FB7505 /* GoogleService-Info.plist */; };
+		B33CD151885AD0FCF6A88044 /* Pods_Storage_Notifi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41278DEDD14DE48B7519555E /* Pods_Storage_Notifi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41278DEDD14DE48B7519555E /* Pods_Storage_Notifi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Storage_Notifi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD05B6A207398A800FB7505 /* Storage&Notifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storage&Notifi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD05B6D207398A800FB7505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD05B6F207398A800FB7505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD05B72207398A800FB7505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD05B74207398A800FB7505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD05B77207398A800FB7505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD05B79207398A800FB7505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD05B812073A72F00FB7505 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B40229AF9CBEDB89F83B6FFB /* Pods-Storage&Notifi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Storage&Notifi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Storage&Notifi/Pods-Storage&Notifi.debug.xcconfig"; sourceTree = "<group>"; };
+		C27B45BDFA0C36CB943C2C15 /* Pods-Storage&Notifi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Storage&Notifi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Storage&Notifi/Pods-Storage&Notifi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD05B67207398A800FB7505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33CD151885AD0FCF6A88044 /* Pods_Storage_Notifi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFB476DBF0F952894C2AE07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40229AF9CBEDB89F83B6FFB /* Pods-Storage&Notifi.debug.xcconfig */,
+				C27B45BDFA0C36CB943C2C15 /* Pods-Storage&Notifi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1267AB4735CA4B1A9B841F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41278DEDD14DE48B7519555E /* Pods_Storage_Notifi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD05B61207398A800FB7505 = {
+			isa = PBXGroup;
+			children = (
+				9AD05B6C207398A800FB7505 /* Storage&Notifi */,
+				9AD05B6B207398A800FB7505 /* Products */,
+				0DFB476DBF0F952894C2AE07 /* Pods */,
+				1267AB4735CA4B1A9B841F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD05B6B207398A800FB7505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD05B6A207398A800FB7505 /* Storage&Notifi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD05B6C207398A800FB7505 /* Storage&Notifi */ = {
+			isa = PBXGroup;
+			children = (
+				9AD05B812073A72F00FB7505 /* GoogleService-Info.plist */,
+				9AD05B6D207398A800FB7505 /* AppDelegate.swift */,
+				9AD05B6F207398A800FB7505 /* ViewController.swift */,
+				9AD05B71207398A800FB7505 /* Main.storyboard */,
+				9AD05B74207398A800FB7505 /* Assets.xcassets */,
+				9AD05B76207398A800FB7505 /* LaunchScreen.storyboard */,
+				9AD05B79207398A800FB7505 /* Info.plist */,
+			);
+			path = "Storage&Notifi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD05B69207398A800FB7505 /* Storage&Notifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD05B7C207398A800FB7505 /* Build configuration list for PBXNativeTarget "Storage&Notifi" */;
+			buildPhases = (
+				2C3D861C88ED9605905DC486 /* [CP] Check Pods Manifest.lock */,
+				9AD05B66207398A800FB7505 /* Sources */,
+				9AD05B67207398A800FB7505 /* Frameworks */,
+				9AD05B68207398A800FB7505 /* Resources */,
+				3DC126F602CACAA05E9728DB /* [CP] Embed Pods Frameworks */,
+				0638278C904B536DAC03A097 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storage&Notifi";
+			productName = "Storage&Notifi";
+			productReference = 9AD05B6A207398A800FB7505 /* Storage&Notifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD05B62207398A800FB7505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Nagiz;
+				TargetAttributes = {
+					9AD05B69207398A800FB7505 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AD05B65207398A800FB7505 /* Build configuration list for PBXProject "Storage&Notifi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD05B61207398A800FB7505;
+			productRefGroup = 9AD05B6B207398A800FB7505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD05B69207398A800FB7505 /* Storage&Notifi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD05B68207398A800FB7505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD05B78207398A800FB7505 /* LaunchScreen.storyboard in Resources */,
+				9AD05B822073A72F00FB7505 /* GoogleService-Info.plist in Resources */,
+				9AD05B75207398A800FB7505 /* Assets.xcassets in Resources */,
+				9AD05B73207398A800FB7505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0638278C904B536DAC03A097 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Storage&Notifi/Pods-Storage&Notifi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3D861C88ED9605905DC486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Storage&Notifi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC126F602CACAA05E9728DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Storage&Notifi/Pods-Storage&Notifi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Storage&Notifi/Pods-Storage&Notifi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD05B66207398A800FB7505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD05B70207398A800FB7505 /* ViewController.swift in Sources */,
+				9AD05B6E207398A800FB7505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AD05B71207398A800FB7505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD05B72207398A800FB7505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD05B76207398A800FB7505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD05B77207398A800FB7505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD05B7A207398A800FB7505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD05B7B207398A800FB7505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD05B7D207398A800FB7505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40229AF9CBEDB89F83B6FFB /* Pods-Storage&Notifi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storage&Notifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nagiz.Storage-Notifi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD05B7E207398A800FB7505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B45BDFA0C36CB943C2C15 /* Pods-Storage&Notifi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storage&Notifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nagiz.Storage-Notifi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD05B65207398A800FB7505 /* Build configuration list for PBXProject "Storage&Notifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD05B7A207398A800FB7505 /* Debug */,
+				9AD05B7B207398A800FB7505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD05B7C207398A800FB7505 /* Build configuration list for PBXNativeTarget "Storage&Notifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD05B7D207398A800FB7505 /* Debug */,
+				9AD05B7E207398A800FB7505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD05B62207398A800FB7505 /* Project object */;
+}

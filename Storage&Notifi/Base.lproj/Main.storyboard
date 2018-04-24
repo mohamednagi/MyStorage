@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storage_Notifi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fh2-N5-ohZ">
+                                <rect key="frame" x="209" y="120" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="dv1-ga-5L9"/>
+                                    <constraint firstAttribute="height" constant="150" id="uOK-fT-3Cf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJH-g1-aMQ">
+                                <rect key="frame" x="50" y="370" width="70" height="40"/>
+                                <color key="backgroundColor" red="0.1164539233" green="0.1744835079" blue="0.31014028189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="JIp-Ap-YPN"/>
+                                    <constraint firstAttribute="height" constant="40" id="mh0-HU-6hE"/>
+                                </constraints>
+                                <state key="normal" title="Upload">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="uploadBu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJT-Sv-tar"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i17-nC-uan">
+                                <rect key="frame" x="255" y="370" width="70" height="40"/>
+                                <color key="backgroundColor" red="0.1164539233" green="0.1744835079" blue="0.31014028189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="3CH-Ro-5mG"/>
+                                    <constraint firstAttribute="height" constant="40" id="zdt-zg-vmD"/>
+                                </constraints>
+                                <state key="normal" title="Download">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="downloadBu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCT-K8-EIB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="image to download" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYX-2r-pT6">
+                                <rect key="frame" x="210" y="300" width="145" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Fa1-zY-6dv"/>
+                                    <constraint firstAttribute="width" constant="145" id="KfB-s8-1Ki"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="image to upload" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEf-ny-NV1">
+                                <rect key="frame" x="25" y="300" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="Nyh-xr-eQx"/>
+                                    <constraint firstAttribute="height" constant="30" id="qCY-VC-Foy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="earth" translatesAutoresizingMaskIntoConstraints="NO" id="V29-2r-3TJ">
+                                <rect key="frame" x="16" y="120" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="EYj-X7-TBR"/>
+                                    <constraint firstAttribute="height" constant="150" id="pD7-v9-rUA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YJH-g1-aMQ" firstAttribute="top" secondItem="V29-2r-3TJ" secondAttribute="bottom" constant="100" id="4cw-tG-AAN"/>
+                            <constraint firstItem="IEf-ny-NV1" firstAttribute="top" secondItem="V29-2r-3TJ" secondAttribute="bottom" constant="30" id="7aR-p8-jNM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i17-nC-uan" secondAttribute="trailing" constant="50" id="951-qu-h7y"/>
+                            <constraint firstItem="V29-2r-3TJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bud-wf-nc6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DYX-2r-pT6" secondAttribute="trailing" constant="20" id="JIm-Ci-UOb"/>
+                            <constraint firstItem="i17-nC-uan" firstAttribute="top" secondItem="Fh2-N5-ohZ" secondAttribute="bottom" constant="100" id="JJu-uM-yEG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fh2-N5-ohZ" secondAttribute="trailing" constant="16" id="MoV-dA-eNX"/>
+                            <constraint firstItem="YJH-g1-aMQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="RXS-Cr-3pt"/>
+                            <constraint firstItem="IEf-ny-NV1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="iVT-Sh-1xe"/>
+                            <constraint firstItem="DYX-2r-pT6" firstAttribute="top" secondItem="Fh2-N5-ohZ" secondAttribute="bottom" constant="30" id="pK4-rj-TBZ"/>
+                            <constraint firstItem="Fh2-N5-ohZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="sJE-ab-d8v"/>
+                            <constraint firstItem="V29-2r-3TJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="zKt-ap-rcp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="downloadimage" destination="Fh2-N5-ohZ" id="roz-br-mrL"/>
+                        <outlet property="uploadimage" destination="V29-2r-3TJ" id="kQN-gJ-89h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="earth" width="1200" height="840"/>
+    </resources>
+</document>
